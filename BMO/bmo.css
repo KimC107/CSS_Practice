@@ -1,0 +1,166 @@
+
+    
+    #b_body{
+        height: 330px;
+        width: 240px;
+        background-color: #5fb59e;
+        border-radius: 20px;
+        border:1px solid #5fb59e;
+}
+
+#face{
+    position: relative;
+    height: 160px;
+    width: 200px;
+    background-color: #caf4ca;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+#face:before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    top:50;
+    left: 50;
+    
+}
+
+#face:after{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    top:50;
+    left: 130;
+    
+}
+
+#mouth{
+    position: absolute;
+    height: 0px;
+    width: 50px;
+    border-radius:0 0 100% 100%;
+    border:solid 8px #5fb59e;
+    top: 100;
+    left: 90px;
+    
+    
+}
+
+
+#mouth:after{
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 40px;
+    border-radius:0 0 500% 500%;
+    border:solid 5px #eee;
+   top: -8;
+    
+    
+}
+
+#botton_a{
+    position: absolute;
+    height: 13px;
+    width: 140px;
+    background-color: black;
+    left: 30px
+}
+
+#botton_b{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: darkblue;
+    border-radius: 100%;
+    left: 200px;
+}
+
+#botton_c{
+    position: absolute;
+    width: 13px;
+    height: 39px;
+    background-color: #f0f00c;
+    left: 43px;
+    top:250px;
+}
+
+
+#botton_c:before{
+    position: absolute;
+    content: "";
+    width: 39px;
+    height: 13px;
+    background-color: #f0f00c;
+    left: -13px;
+    top:13px;
+}
+
+#botton_d{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-color:transparent transparent aqua;
+    border-width: 0 12 18;
+    top:250px;
+    left: 130px;
+}
+
+#botton_e{
+    
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    top:270px;
+    left:170px;
+}
+
+#botton_f{
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    background-color: darkblue;
+    border-radius: 5px;
+    top: 310px;
+    left: 30px;
+}
+
+
+#botton_f:before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 30px;
+    background-color: darkblue;
+    border-radius: 5px;
+    left: 40px;
+}
+
+#botton_g{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    background-color: red;
+    border-radius: 50%;
+    top:300px;
+    left: 150px;
+    
+}
+
+
+
+
+
+
+
